@@ -322,3 +322,15 @@ Received Import Request.
   path: Assets/Prospector/__Scripts/Layout.cs
   artifactKey: Guid(a075b6f457aa64226a57cc0ad91fa179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prospector/__Scripts/Layout.cs using Guid(a075b6f457aa64226a57cc0ad91fa179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f70ecdb139e442c935a360a716f41c') in 0.001603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 348.398275 seconds.
+  path: Assets/Prospector/__Scripts/Prospector.cs
+  artifactKey: Guid(a7d7d9d9d58522f4cb96693ace07ad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prospector/__Scripts/Prospector.cs using Guid(a7d7d9d9d58522f4cb96693ace07ad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16b87890fc089613d345b6fd6ac0200') in 0.001763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.775785 seconds.
+  path: Assets/Prospector/__Scripts/ProspectorStethoscope.cs
+  artifactKey: Guid(e8b77f37bdccf47caa6b539dc51fc18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prospector/__Scripts/ProspectorStethoscope.cs using Guid(e8b77f37bdccf47caa6b539dc51fc18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03663c5b73a616a0a421788f80a1336') in 0.002314 seconds 
