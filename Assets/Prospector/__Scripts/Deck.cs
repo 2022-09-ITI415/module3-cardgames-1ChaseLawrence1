@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -25,38 +25,34 @@ public class Deck : MonoBehaviour {
 	public GameObject prefabSprite;
 	public GameObject prefabCard;
 
-	[Header("Set Dynamically")]
-
-	public PT_XMLReader					xmlr;
-	// add from p 569
-	public List<string>					cardNames;
-	public List<Card>					cards;
-	public List<Decorator>				decorators;
-	public List<CardDefinition>			cardDefs;
-	public Transform					deckAnchor;
-	public Dictionary<string, Sprite>	dictSuits;
+	[Header("----------------")]
+	public PT_XMLReader xmlr;
+	public List<string> cardNames;
+	public List<Card> cards;
+	public List<Decorator> decorators;
+	public List<CardDefinition> cardDefs;
+	public Transform deckAnchor;
+	public Dictionary<string, Sprite> dictSuits;
 
 
 	// called by Prospector when it is ready
 	public void InitDeck(string deckXMLText) {
 		// from page 576
-		if( GameObject.Find("_Deck") == null) {
+		if (GameObject.Find("_Deck") == null)
+		{
 			GameObject anchorGO = new GameObject("_Deck");
 			deckAnchor = anchorGO.transform;
 		}
-		
-		// init the Dictionary of suits
+
+		//Initialize the Dictionary of SuitSprites with necessary Sprites
 		dictSuits = new Dictionary<string, Sprite>() {
-			{"C", suitClub},
-			{"D", suitDiamond},
-			{"H", suitHeart},
-			{"S", suitSpade}
+			{ "C", suitClub },
+			{ "D", suitDiamond },
+			{ "H", suitHeart },
+			{ "S", suitSpade }
 		};
-		
-		
-		
-		// -------- end from page 576
-		ReadDeck (deckXMLText);
+
+		ReadDeck(deckXMLText);
 		MakeCards();
 	}
 
