@@ -304,3 +304,21 @@ Received Import Request.
   path: Assets/Prospector/__Scripts/FloatingScore.cs
   artifactKey: Guid(17267ded21af74bb6b27f969e0d2d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prospector/__Scripts/FloatingScore.cs using Guid(17267ded21af74bb6b27f969e0d2d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68aeb96bd0604370fcf543096cafb9a') in 0.002179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 975.352643 seconds.
+  path: Assets/Prospector/__Scripts/FloatingScore.cs
+  artifactKey: Guid(17267ded21af74bb6b27f969e0d2d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prospector/__Scripts/FloatingScore.cs using Guid(17267ded21af74bb6b27f969e0d2d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a795a57c5e9ed9883b1408cc61421dd') in 0.011845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.264509 seconds.
+  path: Assets/Prospector/__Scripts/Layout.cs
+  artifactKey: Guid(a075b6f457aa64226a57cc0ad91fa179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prospector/__Scripts/Layout.cs using Guid(a075b6f457aa64226a57cc0ad91fa179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6a11416dd49df190d3933c2a05b374') in 0.003772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.191749 seconds.
+  path: Assets/Prospector/__Scripts/Layout.cs
+  artifactKey: Guid(a075b6f457aa64226a57cc0ad91fa179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prospector/__Scripts/Layout.cs using Guid(a075b6f457aa64226a57cc0ad91fa179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f70ecdb139e442c935a360a716f41c') in 0.001603 seconds 
