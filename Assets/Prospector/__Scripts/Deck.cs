@@ -135,13 +135,17 @@ public class Deck : MonoBehaviour {
 	}//GetCardDefinitionByRank
 	
 	
-	public void MakeCards() {
-		// stub Add the code from page 577 here
+	public void MakeCards()
+	{
+		//cardNames will be the names of cards to build
+		//Each suit goes from 1 to 13 (e.g., C1 to C13 for Clubs)
 		cardNames = new List<string>();
-		string[] letters = new string[] {"C","D","H","S"};
-		foreach (string s in letters) {
-			for (int i =0; i<13; i++) {
-				cardNames.Add(s+(i+1));
+		string[] letters = new string[] {"C", "D", "H", "S" };
+		foreach (string s in letters)
+		{
+			for (int i = 0; i < 13; i++)
+			{
+				cardNames.Add(s + (i + 1));
 			}
 		}
 		
