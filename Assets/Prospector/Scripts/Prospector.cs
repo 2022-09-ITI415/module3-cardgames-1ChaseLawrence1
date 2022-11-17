@@ -425,7 +425,7 @@ public class Prospector : MonoBehaviour
 		case ScoreEvent.gameWin: //Won the round
 		case ScoreEvent.gameLoss: //Lost the round
 			chain = 0; //resets the score chain
-			score += scoreRun; //Add scoreRun to the total score
+			score -= scoreRun; //Add scoreRun to the total score
 			scoreRun = 0; //reset scoreRun
 
 			
@@ -446,7 +446,7 @@ public class Prospector : MonoBehaviour
 			break;
 		case ScoreEvent.mine: //Remove a mine card
 			chain++; //Increase the score chain
-			scoreRun += chain; //add score for this card to run
+			scoreRun -= chain; //add score for this card to run
 
 			//Create a FloatingScore for this score
 			FloatingScore fs;

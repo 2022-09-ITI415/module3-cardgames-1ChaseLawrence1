@@ -50,7 +50,7 @@ public class Scoreboard : MonoBehaviour
 
 		public void FSCallback(FloatingScore fs)
 	{
-		score += fs.score;
+		score -= fs.score;
 	}
 
 	
