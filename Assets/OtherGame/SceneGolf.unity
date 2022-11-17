@@ -557,7 +557,7 @@ MonoBehaviour:
   drawPile: []
   chain: 0
   scoreRun: 0
-  score: 0
+  score: 100
   fsRun: {fileID: 0}
   GTGameOver: {fileID: 0}
   GTRoundResult: {fileID: 0}
@@ -877,7 +877,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 100
 --- !u!222 &1566631529
 CanvasRenderer:
   m_ObjectHideFlags: 0
